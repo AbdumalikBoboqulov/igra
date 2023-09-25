@@ -1,18 +1,4 @@
-'use strict';
-// const score0EL = document.querySelector('#score--0');
-// const score1EL = document.getElementById('score--1');
 
-// const dice = document.querySelector('.dice');
-// const btnRollDice = querySelector('.btn--roll');
-
-// score0EL.textContent = 0;
-// score1EL;
-// dice.style.display = 'none';
-
-// btnRollDice.addEventListener('click', function () {
-//   let random = Math.trunc(Math.random() * 6) + 1;
-//   dice.srs;
-// });
 'use strict';
 
 const score0El = document.querySelector('#score--0');
@@ -34,7 +20,7 @@ let currentScore,
 function init() {
   score0El.textContent = 0;
   score1El.textContent = 0;
-  //   dice.style.display = 'none';
+    // dice.style.display = 'none';
 
   document.getElementById(`current--${activePlayer}`).textContent = 0;
 

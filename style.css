@@ -214,9 +214,18 @@ main {
     font-size: 38%;
   }
   main {
-    height: 420px;
+    height: 400px;
   }
   section {
     height: 420px;
   }
+  .btn--hold {
+    top: 57.1rem;
+}
+.btn--roll{
+  top: 50.1rem;
+}
+.current{
+  margin-bottom: 120px;
+}
 }
